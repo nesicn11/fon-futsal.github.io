@@ -19,6 +19,22 @@ main{
     font-size: 40px;
     margin-bottom: 40px;
 }
+@media only screen and (min-width: 120px) and (max-width: 1024px) {
+    .spanija-cont1{
+        margin: 0 0;
+        width: 100%;
+    }
+    
+    .spanija-header{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .spanija-h2{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+}
 
 .spanija-rez{
     margin-top: 20px;
