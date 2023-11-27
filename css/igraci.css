@@ -25,3 +25,32 @@
     background-color: rgb(60, 60, 60);
     background-blend-mode: multiply;  
 }
+
+@media only screen and (min-width: 120px) and (max-width: 1024px) {
+  .golmani{
+    padding: 0 0;
+  }
+
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-logo-link {
+    margin-bottom: 20px;
+  }
+
+  .footer-text-container {
+    text-align: center;
+  }
+
+  .footer-list {
+    justify-content: center;
+  }
+
+  .footer-network {
+    order: -1;
+    margin-bottom: 20px;
+  }
+}
