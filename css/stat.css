@@ -28,3 +28,18 @@ button{
     opacity:0.7;
 }
 
+@media only screen and (min-width: 120px) and (max-width: 1024px) {
+    .cont{
+        width: 100%;
+        margin: 0 0;
+    }
+    
+    .stat-header{
+        margin-bottom: 30px;
+    }
+
+    main{
+        padding: 0;
+    }
+}
+
